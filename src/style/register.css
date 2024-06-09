@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 1vh;
+}
+
+.inputFormContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: inset 2px 5px 11px 3px rgba(65, 86, 105, 0.45);
+    /* border: 2px solid red; */
+}
+
+.inputFormContainer input {
+    border: none;
+    border-bottom: 2px solid rgb(90, 77, 2);
+    width: 100%;
+    /* border: 2px solid indigo; */
+}

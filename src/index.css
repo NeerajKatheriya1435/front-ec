@@ -1,0 +1,43 @@
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+}
+
+.navbar-brand {
+    color: rgb(235, 209, 64);
+}
+
+.active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/* footer styling */
+.myfooter {
+    background-color: rgb(149, 149, 152);
+    height: 16vh;
+    position: relative;
+}
+
+.myfooter h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.linkContainerFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.linkContainerFooter a {
+    margin: 0px 8px;
+    color: rgb(45, 42, 42);
+    text-decoration: none;
+    font-size: large;
+}
+
+/* for showing single product */
+.productLink {
+    text-decoration: none;
+    color: black;
+}
